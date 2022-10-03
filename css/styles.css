@@ -101,6 +101,8 @@ body {
 }
 
 .contacts-item {
+  display: flex;
+  gap: 10px;
 }
 
 .contacts-mail {
@@ -116,6 +118,15 @@ body {
 .contacts-mail:hover,
 .contacts-mail:focus {
   color: #2196f3;
+}
+
+.contact-icon {
+  fill: rgba(117, 117, 117, 1);
+}
+
+.contacts-mail:hover .contact-icon,
+.contacts-mail:focus .contact-icon {
+  fill: #2196f3;
 }
 
 .contacts-tel {
@@ -139,6 +150,10 @@ body {
   background-color: #2f303a;
   height: 600px;
   padding: 200px 0;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heo-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -191,9 +206,20 @@ body {
 }
 
 .features-list {
+  align-items: flex-start;
 }
 
 .features-item {
+}
+
+.features-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: rgba(245, 244, 250, 1);
+  margin-bottom: 30px;
 }
 
 .features-title {
@@ -214,7 +240,7 @@ body {
 /* -------SECTION 2--------- */
 
 .works, .section {
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .works-title {
@@ -263,7 +289,7 @@ body {
 
 .teams-name {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 
 .team-people {
@@ -283,6 +309,42 @@ body {
   letter-spacing: 0.03em;
 }
 
+.team-soc-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.team-soc-item {
+
+}
+
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: rgba(33, 150, 243, 1);
+}
+
+.team-soc-icon {
+  fill: rgba(175, 177, 184, 1);
+}
+
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon {
+  fill: rgba(255, 255, 255, 1);
+}
 /* ---------FOOTER---------- */
 
 .footer {
