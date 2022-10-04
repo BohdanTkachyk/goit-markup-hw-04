@@ -61,21 +61,22 @@
         </nav>
         <ul class="header-contacts list">
           <li class="contacts-item">
-            <a href="" class="contact-link"><svg class="contact-icon" width="16px" height="12px">
-                <use href="./images/icomoon/symbol-defs.svg#icon-envelope"></use>
-            </svg></a>
             <a
               class="contacts-mail"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+              href="mailto:info@devstudio.com">
+              <svg class="contact-icon" width="16px" height="12px">
+                <use href="./images/icomoon/symbol-defs.svg#icon-envelope"></use>
+            </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="contacts-item">
-            <a href="" class="contact-link"><svg class="contact-icon" width="10px" height="16px">
-                    <use href="./images/icomoon/symbol-defs.svg#icon-smartphone"></use>
-                </svg></a>
             <a class="contacts-tel" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+              >
+            <svg class="contact-icon" width="10px" height="16px">
+                <use href="./images/icomoon/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -110,7 +111,7 @@
             </li>
             <li class="features-item">
                 <a href="" class="features-link"><svg class="features-icon" width="70px" height="70px">
-                        <use href="./images/icomoon/symbol-defs.svg#icon-Vector"></use>
+                        <use href="./images/icomoon/symbol-defs.svg#icon-clock"></use>
                     </svg></a>
               <h3 class="features-title">Пунктуальність</h3>
               <p class="features-text">
@@ -353,36 +354,88 @@
           </ul>
         </div>
       </section>
+    <!--section-4-->
+      <section class="customers section">
+        <div class="customers-flex">
+            <h2 class="customers-title">Постійні клієнти</h2>
+            <ul class="customers-list list sections-flex">
+                <li class="customers-item"><a href="" class="customers-link"><svg class="customers-icon" width="106px" height="60px">
+                    <use href="./images/icomoon/symbol-defs.svg#icon-Logo"></use>
+                </svg></a></li>
+                <li class="customers-item"><a href="" class="customers-link"><svg class="customers-icon" width="106px" height="60px">
+                    <use href="./images/icomoon/symbol-defs.svg#icon-Logo2"></use>
+                </svg></a></li>
+                <li class="customers-item"><a href="" class="customers-link"><svg class="customers-icon" width="106px" height="60px">
+                    <use href="./images/icomoon/symbol-defs.svg#icon-Logo3"></use>
+                </svg></a></li>
+                <li class="customers-item"><a href="" class="customers-link"><svg class="customers-icon" width="106px" height="60px">
+                    <use href="./images/icomoon/symbol-defs.svg#icon-Logo4"></use>
+                </svg></a></li>
+                <li class="customers-item"><a href="" class="customers-link"><svg class="customers-icon" width="106px" height="60px">
+                    <use href="./images/icomoon/symbol-defs.svg#icon-Logo5"></use>
+                </svg></a></li>
+                <li class="customers-item"><a href="" class="customers-link"><svg class="customers-icon" width="106px" height="60px">
+                    <use href="./images/icomoon/symbol-defs.svg#icon-Logo6"></use>
+                </svg></a></li>
+            </ul>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a class="footer-logo" href="./index.html">
-          <span class="logo-span">Web</span>Studio
-        </a>
-        <address class="footer-address">
-          <ul class="address-list list">
-            <li class="address-item">
-              <a
-                class="footer-geo"
-                href="https://goo.gl/maps/ojrVNZB9v67EMsMR8"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li class="address-item">
-              <a
-                class="footer-mail"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="address-item">
-              <a class="footer-tel" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
+        <div class="footer-flex">
+            <div class="address">
+                <a class="footer-logo" href="./index.html">
+                <span class="logo-span">Web</span>Studio
+                </a>
+                <address class="footer-address">
+                <ul class="address-list list">
+                    <li class="address-item">
+                    <a
+                        class="footer-geo"
+                        href="https://goo.gl/maps/ojrVNZB9v67EMsMR8"
+                        >м. Київ, пр-т Лесі Українки, 26</a
+                    >
+                    </li>
+                    <li class="address-item">
+                    <a
+                        class="footer-mail"
+                        href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
+                    </li>
+                    <li class="address-item">
+                    <a class="footer-tel" href="tel:+380961111111"
+                        >+38 096 111 11 11</a
+                    >
+                    </li>
+                </ul>
+                </address>
+            </div>
+            <div class="footer-client">
+                <h2 class="client-title">приєднуйтесь</h2>
+                <ul class="client-soc-list list">
+                    <li class="client-soc-item">
+                        <a href="" class="client-soc-link"><svg class="client-soc-icon" width="20px" height="20px">
+                                <use href="./images/icomoon/symbol-defs.svg#icon-instagram"></use>
+                            </svg></a>
+                    </li>
+                    <li class="client-soc-item">
+                        <a href="" class="client-soc-link"><svg class="client-soc-icon" width="20px" height="20px">
+                                <use href="./images/icomoon/symbol-defs.svg#icon-twitter"></use>
+                            </svg></a>
+                    </li>
+                    <li class="client-soc-item">
+                        <a href="" class="client-soc-link"><svg class="client-soc-icon" width="20px" height="20px">
+                                <use href="./images/icomoon/symbol-defs.svg#icon-facebook"></use>
+                            </svg></a>
+                    </li>
+                    <li class="client-soc-item">
+                        <a href="" class="client-soc-link"><svg class="client-soc-icon" width="20px" height="20px">
+                                <use href="./images/icomoon/symbol-defs.svg#icon-linkedin"></use>
+                            </svg></a>
+                    </li>
+            </div>
+        </div>
     </footer>
   </body>
 </html>
