@@ -237,6 +237,7 @@ body {
   justify-content: center;
   width: 270px;
   height: 120px;
+  border-radius: 4px;
   background-color: rgba(245, 244, 250, 1);
   margin-bottom: 30px;
 }
@@ -258,9 +259,8 @@ body {
 
 /* -------SECTION 2--------- */
 
-.works,
-.section {
-  /* padding-bottom: 94px; */
+.works {
+  padding-top: 0px;
 }
 
 .works-title {
@@ -396,6 +396,7 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
   width: 170px;
   height: 92px;
 }
@@ -420,7 +421,6 @@ body {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
 }
 
 .footer-logo {
